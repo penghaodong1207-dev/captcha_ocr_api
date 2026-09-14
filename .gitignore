@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+onnx_env/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+
+# Training / export artifacts not needed by the runtime repo
+images/
+data/
+data_clean/
+output/
+inference/
+pretrain_models/
+PaddleOCR/
+checkpoints/
+*.pdparams
+*.pdopt
+*.pdmodel
+*.pdiparams
+
+# Archives
+*.zip
+*.7z
+*.rar
